@@ -1,20 +1,13 @@
 import React from 'react';
+import {Header} from "./components/layout/Header";
 
-import './App.css';
+import {Map} from "./components/Map/Map";
 
 export const App = () => {
   return (
      <>
-     <header>
-<h1>
-  <strong>Mega</strong> ogłoszenia
-</h1>
-       <button>Dodaj Ogłoszenia</button>
-       <div className="search">
-         <input type="text"/> <button>Szukaj</button>
-       </div>
-     </header>
-       <div className="map"></div>
+     <Header/>
+       <Map/>
      </>
   )
 };
