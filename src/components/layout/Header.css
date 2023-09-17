@@ -19,3 +19,8 @@ header h1 {
     width: 13em;
     margin-right: 5px;
 }
+
+header a {
+    text-decoration: none;
+    color: navajowhite;
+}
